@@ -102,7 +102,8 @@ function DivContenedor() {
     return (
         <Flex align="center" justify="center" minHeight="70vh" >
             <Box width={{ base: 'sm', lg: 'lg' }}
-                maxW={{ base: 'full', lg: 'container.lg' }}>
+                maxW={{ base: 'full', lg: 'container.lg' }}
+                mt={'15px'} mb={'15px'}>
                 <Formik
                     initialValues={{ name: 'Nombre/s', lastName: 'Apellido/s', email: 'example@hotmail.com', contraseña: '', contraseñaConfirm: '' }}
                     onSubmit={(values, actions) => {
